@@ -1,0 +1,33 @@
+# ===== Vim Cmake ======
+Debug/
+compile_commands.json
+
+# ===== JetBrains IDE =====
+.idea/
+*.iml
+cmake-build-*/
+out/
+
+# ===== CMake =====
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# ===== Build artifacts =====
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# ===== Debug =====
+*.dSYM/
+*.gdb_history
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
